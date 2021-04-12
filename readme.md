@@ -1,8 +1,8 @@
 # Project Overview
 
-**PROJECT NAME:** dfadfadfsdfadf
+**PROJECT NAME:** Project 1
 
-**PROJECT AUTHOR:** lkjlkjljlkadfsd
+**PROJECT AUTHOR:** Shawntez Turner
 
 ## Project Schedule
 
@@ -22,11 +22,12 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 ## Project Description
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+This project is my portfolio project. The site that I used for inspiration is: https://pierre.io/.
+
 
 ## Google Sheet
 
-Include link to your google sheet here.  Here is the sample [Joe had used in class](https://docs.google.com/spreadsheets/d/15PmioBi2dQEkewpqI7MDkDpvcVF0Trw8vmarAQbwoHk/edit#gid=0) 
+Include link to your google sheet here.  Here is the sample [Joe had used in class]https://docs.google.com/spreadsheets/d/1Nwnf95jFIWGZCCkXJ8owORB7dtd6QCsk2xrBil3CTrA/edit?usp=drive_web&ouid=111826437357792993561
 
 ## Portfolio I want to Emulate
 
@@ -34,9 +35,9 @@ Search and compare at least 3 profile web sites.  Record your findings in the ta
 
 Link To Site  | One Thing I'd Like To Incorporate | 
 | ------------- | ------------- |
-| [denisechandler.com](http://www.denisechandler.com/)| landing page animation
-|[jkeohan.com](http://jkeohan.com/) | mouseover on a project triggers animations |
-| [mattfarley.ca](http://mattfarley.ca/) |  layout of the projects
+| [pierrs.io] https://pierre.io/| landing page animated features
+|[timmyomahony.com]https://timmyomahony.com/| Landing page layout |
+| [dcfonts.com]https://www.dcfonts.com/|  card design
 
 ---
 
@@ -44,8 +45,9 @@ Link To Site  | One Thing I'd Like To Incorporate |
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.  
 
-- [Mobile](https://i.imgur.com/P3iBEZf.jpg)
-- [Desktop](https://i.imgur.com/xpOWo0E.jpg)
+- [Mobile](https://wireframepro.mockflow.com/editor.jsp?editor=on&publicid=Me502d6b386a7e1401274dc0bd76700401618227309835&perm=Create&projectid=M7983d0237ab27cdf8067bd0daec972b61618227332158&ptitle=Project%201&bgcolor=white&category=featured#/page/63b80125f11742ddbb2b9085d2cff9e3)
+- [Tablest](https://wireframepro.mockflow.com/editor.jsp?editor=on&publicid=Me502d6b386a7e1401274dc0bd76700401618227309835&perm=Create&projectid=M7983d0237ab27cdf8067bd0daec972b61618227332158&ptitle=Project%201&bgcolor=white&category=featured#/page/Daead1161d236db02387571ce8f2377fd)
+- [Desktop](https://wireframepro.mockflow.com/editor.jsp?editor=on&publicid=Me502d6b386a7e1401274dc0bd76700401618227309835&perm=Create&projectid=M7983d0237ab27cdf8067bd0daec972b61618227332158&ptitle=Project%201&bgcolor=white&category=featured#/page/Da7a986efe849c5272a3c8381cebdb348)
 
 Wireframing Resources:
 
@@ -55,7 +57,7 @@ Wireframing Resources:
 
 ## Time/Priority Matrix 
 
-[Link](https://res.cloudinary.com/jkeohan/image/upload/a_270/v1591621734/project1_matrix_ocy5gc_h1kg0m.jpg)
+[Link](https://imgur.com/LET8Rjg)
 
 Include a full list of features that have been prioritized based on the `Time and Priority` Matix.  This involves drawing a a square.  In the middle of the square, on the x axis draw a line.  The most left part of the line should start with 0hrs and the end of the line should include 2hrs.  This line will be used to estimate how much time any one feature will take to complete. 
 
@@ -73,12 +75,16 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 - Pull data using google json api
 - Render data on page 
-- Allow user to choose favorites 
-- Save their choices in firebase
+- Css Layout 
+- Css Classes
+- Responsiveness
+- Crown
+- Carousel
+- Cards
 
 #### PostMVP 
 
-- Anything else that is not MVP
+- Animation
 
 ## Functional Components
 
@@ -89,29 +95,30 @@ Time frames are also key in the development cycle.  You have limited time to cod
 #### MVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Hamburger | H | 1hr | hr |
-| Project Previews | H | 3hr | hr |
-| Regular Nav | H | 1hr | hr |  
-| Adding Form | H | 1.5hr|  hr | 
-| Other sections and flex| M | 3hr | hr|
+| CSS Layout | H | 3hr | hr |
+| Css classes | H | 3hr | hr |
+| Crown Nav | H | 1hr | hr |  
+| Carousel | H | 3hr|  hr | 
+| Cards| H | 3hr | hr|
 | Working with API | H | 3hrs|  hr | 
 | Responsive | H | 3hr | hr | hr |
 | Social Media Icons | L | 1hr |  hr |
-| Total | H | 15.5hrs| hrs |
+| Total | H | 20hrs| hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Project Hover | L | 3hr | -hr | hr |
-| Banner letters wiggle | L | 1hr | hr |
-| Interactive Banner | M | 4hr | hr |
-| Materialize | H | 4hr | -hr | hr |
+| mouseOver animation | L | 3hr | -hr | hr |
+| Crown bounce | L | 3hr | hr |
+| Random Carousel spin | M | 4hr | hr |
 | Bootstrap | H | 4hr | hr |
 | Make own icon | L | 4hr | hr |
-| Total | H | 20hrs| hrs |
+| Nav bounce onClick | L | 4hr | hr |
+| Total | H | 22hrs| hrs |
 
 ## Additional Libraries
- Use this section to list all supporting libraries and thier role in the project. 
+ Bootstrap
+ JQuery 
 
 ## Code Snippet
 
