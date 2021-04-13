@@ -1,9 +1,27 @@
-body {
+/* body {
     background-color: black;
+} */
+nav{
+    background-color: rgb(77, 66, 9);
 }
 main {
+    background-color: black;
     display: flex;
+    display: grid;
+    grid-template-columns: 100%;
 }
-ul {
-    display: none;
+.about {
+    background-image: url("https://images.unsplash.com/flagged/photo-1565241651368-35437ca5563f?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8Y3Jvd258ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=60")
+    ;
+}
+ul li{ display: none;
+    
+}
+div.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+img {
+    width: 100%;
 }
