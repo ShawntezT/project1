@@ -4,18 +4,18 @@
 // Web Components Classes Here
 //////////////////////////////////
 
-class TemplateExample extends HTMLElement {
-    constructor(){
-        super()
+// class TemplateExample extends HTMLElement {
+//     constructor(){
+//         super()
 
-        this.innerHTML = `<h1>Hello World</h1>`
-    }
-}
+//         this.innerHTML = `<h1>Hello World</h1>`
+//     }
+// }
 
 
 
-/////////////////////////////////
-// Register the HTML Tag here
-/////////////////////////////////
+// /////////////////////////////////
+// // Register the HTML Tag here
+// /////////////////////////////////
 
-customElements.define("template-example", TemplateExample)
+// customElements.define("template-example", TemplateExample)
