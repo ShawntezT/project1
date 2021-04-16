@@ -19,10 +19,23 @@ $.ajax("https://spreadsheets.google.com/feeds/list/1Nwnf95jFIWGZCCkXJ8owORB7dtd6
     ///////////////
     //JQuery to render project below
     /////////////
+    // const $cardBody = $("div.card-body")
+    // const $projectDescript = $("<div>")
+    // $projectDescript.html = $(`<p>${item.description}</p>`)
+    // $cardBody.append($projectDescript)
 
-
-
-
+    // const $li = $("<li>").append($(`<p>`).text(`${projects.description}`) )
+    // $(".cards ul").append($li)
+    const final = projects.map((project) => {
+        return `
+        <my-card project=${project.project} git=${project.giturl} live=${project.liveurl}
+        description=${project.description} img=${project.image} ></my-card>`
+    })
+    console.log(final.join(""))
+    const $divCards = $("div.cards")
+    $divCards.html(final.join(""))
+    // const $myCard = $("final")
+    // $divCards.append($myCard)
     /////////////////////
     //end of code to make site
     /////////////////////
